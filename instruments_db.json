@@ -1,0 +1,37 @@
+{
+  "instruments": [
+    {
+      "name": "NMR Spectrometer",
+      "capabilities": ["atomic structure", "molecular dynamics", "purity analysis"],
+      "limitations": ["requires liquid cooling", "sensitive to magnetic interference"],
+      "sop_template": [
+        "Initialize cryogenic cooling system.",
+        "Load sample into 5mm tube.",
+        "Perform pulse-sequence calibration.",
+        "Run 1H NMR acquisition."
+      ]
+    },
+    {
+      "name": "X-Ray Diffractomer",
+      "capabilities": ["crystalline structure", "phase identification", "unit cell parameters"],
+      "limitations": ["radiation safety protocols required", "sample must be crystalline"],
+      "sop_template": [
+        "Mount crystal on goniometer.",
+        "Align X-ray beam focus.",
+        "Execute theta-2theta scan.",
+        "Analyze diffraction patterns."
+      ]
+    },
+    {
+      "name": "Scanning Electron Microscope (SEM)",
+      "capabilities": ["surface morphology", "topography", "compositional mapping"],
+      "limitations": ["vacuum chamber required", "non-conductive samples require gold coating"],
+      "sop_template": [
+        "Apply conductive coating if necessary.",
+        "Vent vacuum chamber and load sample.",
+        "Set acceleration voltage to 15kV.",
+        "Optimize astigmatism and focus."
+      ]
+    }
+  ]
+}
